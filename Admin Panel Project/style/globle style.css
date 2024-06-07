@@ -1,0 +1,1504 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* ------------------------------ container css ------------------------------------------------*/
+
+
+#container{
+    height:100vh;
+    width: 100%;
+    display: flex;
+}
+
+/* ------------------------------ sideBar css ------------------------------------------------*/
+
+#logo{
+    height: 30px;
+    width: 60px;
+    margin-top: 20px;
+}
+
+#sideBar{
+    height: 100%;
+    width: 20%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    padding: 15px ;
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
+
+#sideBar>button{    
+    display: block;
+    padding: 10px;
+    width:100%;
+    border-radius: 10px;
+    background-color: transparent;
+  
+  
+}
+
+/* ------------------------------ main css ------------------------------------------------*/
+
+
+#main{
+    height:100vh;
+    width:100%;
+    overflow-y: scroll;
+    position: relative;
+    scrollbar-width: none;
+}
+/* ------------------------------ navbar css ------------------------------------------------*/
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5e72e4;
+    padding: 15px 35px;
+    
+}
+
+#photo>img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.navbar>input{
+    padding: 15px;
+    border-radius: 30px;
+    width: 280px;
+    height: 50px;
+    border: none;
+    outline: none;
+}
+
+.navbar-logo{
+    display: flex;
+    align-items: center;
+    gap:30px;
+}
+
+.navbar-logo a{
+    color: white;
+}
+
+.navbar-logo a:hover{
+    color:black;
+}
+
+/* ------------------------------ Dashboard css ------------------------------------------------*/
+
+#Dashboard{
+    height: 400px;
+    width:100%;
+    background-color: #5e72e4;
+}
+
+
+
+.default{
+    display: flex;
+    color: white;
+    gap: 20px;
+}
+
+.default-2{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    border-radius: 5px;
+    color: #5e72e4;
+}
+
+.New-Filters{
+   display: flex;
+   gap: 10px;
+}
+
+.New-Filters>h4{
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items:center ;
+    
+}
+
+.default-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 40px 0px;
+    
+}
+
+
+/* ------------------------------ profit-section css ------------------------------------------------*/
+
+#profits-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.total{
+    height:125px;
+    width: 200px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+.bxs-hand-up{
+    background-color: orangered;
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+
+}
+
+.total-content{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 50px;
+}
+
+.range{
+    display: flex;
+    gap: 5px;
+    margin-left: 5px;
+}
+
+.since{
+    color: #20c620;
+}
+
+.user-sales{
+    height:125px;
+    width: 200px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+.bxs-pie-chart-alt-2{
+    background-color: rgb(228, 116, 74);
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+
+}
+
+.user-content{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 50px;
+}
+
+.bx-line-chart{
+    background-color:lightgreen;
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+
+}
+
+.sales-content{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 50px;
+}
+
+.performance{
+    height:125px;
+    width: 200px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+.bx-bar-chart-alt{
+    background-color: lightskyblue;
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+
+}
+
+.performance-content{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 25px;
+}
+
+
+/* ------------------------------ charts css  ------------------------------------------------*/
+
+#chart-1{
+    background-color: #172b4d;
+    width: 60%;
+    height: 400px;
+    border-radius: 10px;
+}
+
+#charts{
+    width: 100%;
+    height: 500px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* ------------------------------ calendar css  ------------------------------------------------*/
+
+#calendar{
+    height: 400px !important;
+    width: 400px !important; 
+}
+/* ------------------------------ visitor css  ------------------------------------------------*/
+
+#visitors{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+
+#visitor-table-1 {
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #000;
+    overflow: hidden;
+    text-transform: capitalize;
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+      rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+
+  #visitor-table-2 {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #000;
+    overflow: hidden;
+    text-transform: capitalize;
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+      rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+
+  
+  .visitors-heading {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #000;
+  }
+  
+  .visitors-heading p {
+    background-color: darkcyan;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .visitor-heading-content {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    border: 1px solid #000;
+    font-size: large;
+  }
+  
+  .visitors-list {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-size: large;
+    
+  }
+  
+
+
+/* ------------------------------ icons css  ------------------------------------------------*/
+
+
+#Icons-1{
+    height: 400px;
+    width:100%;
+    background-color: #5e72e4;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.traffic{
+    height:125px;
+    width: 200px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+
+
+.bx-scatter-chart{
+    background-color: plum;
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+
+}
+
+.traffic-content{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 50px;
+}
+
+.range-icons{
+    display: flex;
+    gap: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.since{
+    color: #20c620;
+}
+
+
+.new-users-1{
+    height:125px;
+    width: 200px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+
+
+.bx-network-chart{
+    background-color:orange;
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+
+}
+
+.users-content-1{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 50px;
+}
+
+.range-icons{
+    display: flex;
+    gap: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.since-1{
+    color: red;
+}
+
+.sales-1{
+    height:125px;
+    width: 200px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+
+
+.bx-loader-circle{
+    background-color:yellowgreen;
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+
+}
+
+.sales-content-1{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 50px;
+}
+
+.range-icons{
+    display: flex;
+    gap: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.since-1{
+    color: red;
+}
+
+.production-1{
+    height:125px;
+    width: 200px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+
+
+.bx-check-double{
+    background-color:skyblue;
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+
+}
+
+.production-content-1{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 25px;
+}
+
+.range-icons{
+    display: flex;
+    gap: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+/* ------------------------------ all logo css  ------------------------------------------------*/
+
+
+.name{
+    padding:10px;
+}
+
+.her{
+    height:auto;
+    width: 80%;
+    background:whitesmoke;
+    border-radius: 10px;
+    position:absolute;
+    left:100px;
+    top: 400px;
+}
+
+#icons>button{
+    height: 60px;
+    width: 175px;
+    color: #5e72e4;
+    font-size: large;
+    border-radius: 5px;
+    text-align: left;
+    padding: 5px;
+    border: none;
+    margin-top: 10px;
+    background-color: white;
+ 
+}
+
+
+#icons{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#icons button span>i{
+    padding: 5px;
+}
+
+/* ------------------------------ google maps css  ------------------------------------------------*/
+
+
+#Google{
+    height: 200px;
+    width:100%;
+    background-color: #5e72e4;
+}
+
+.google{
+    display: flex;
+    color: white;
+    gap: 20px;
+}
+
+.google-2{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    border-radius: 5px;
+    color: #5e72e4;
+}
+
+.google-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 40px 0px;
+}
+
+#main-map{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+iframe{
+    border-radius: 10px;
+    width:1000px;
+    margin-bottom: 50px;
+}
+
+
+
+   /* ------------------------------ profiles css  ------------------------------------------------*/
+
+.banner{
+    /* border: 1px solid #000; */
+    height: 500px;
+    background-image: url("https://argon-dashboard-flask.creative-tim.com/static/assets/img/theme/profile-cover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.main-box{
+    /* border: 1px solid #000; */
+    width: 40%;
+    height: 200px;
+    position: absolute;
+    left: 4%;
+    top: 20%;
+    padding: 10px;
+}
+
+.main-box h1{
+    margin-bottom: 10px;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-box p{
+    width: 90%;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.main-box a{
+    text-decoration: none;
+    /* border: 1px solid #000; */
+    padding: 14px;
+    border-radius: 5px;
+    background-color: white;
+    color:#1a4da4;
+}
+
+.image-filter{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 139, 0.583);
+}
+
+/* ------------------ F  O  R  M ----------------- */
+
+.form-box{
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    transform: translateY(70%);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    bottom: 0;
+}
+
+.form-username{
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 15px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.form-username .label{
+    width: 45%;
+    /* border: 1px solid #000; */
+}
+
+
+.form{
+    /* border: 1px solid #000; */
+    width: 65%;
+    height: 750px;
+    background-color:whitesmoke;
+    padding: 12px;
+    border-radius: 5px;
+    
+}
+
+.form h3{
+    /* border: 1px solid #000; */
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+
+.form p{
+    /* border: 1px solid #000; */
+    padding: 10px;
+    font-size: 12px;
+    color: grey;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 14px;
+}
+
+
+
+.label label{
+
+    font-size: 20px;
+    color: grey;
+    /* border: 1px solid #000; */
+    padding: 10px;
+}
+
+.label input{
+    width: 100%;
+    padding: 14px;
+    border: 1px solid grey;
+}
+
+
+.about-me{
+    padding: 15px;
+}
+
+
+.about-me label{
+    /* border: 1px solid #000; */
+    margin-bottom: 15px;
+    font-family:Verdana, sans-serif;
+}    
+
+.about-me>textarea{
+    margin-top: 15px;
+    border: 1px solid #000;
+    width: 100%;
+    height: 70px;
+}
+
+
+/* ------------------P  R  O  F  I  L  E  -- C  A  R  D----------- */
+
+
+.p-card{
+    /* border: 1px solid #000; */
+    width: 30%;
+    height: 420px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.photo-section{
+    width: 100%;
+    height: 150px;
+    /* border: 1px solid #000; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-image: url("https://argon-dashboard-flask.creative-tim.com/static/assets/img/theme/img-1-1000x600.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.photo{
+    width: 80px;
+    height: 80px;
+    border: 3px solid #ffffff;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(50%);
+    border-radius: 50%;
+}
+
+.photo>img{
+    border-radius: 50%;
+}
+
+.p-content{
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.b-1{
+    /* border: 1px solid #000; */
+    width: 80px;
+    height: 70px;
+    text-align: center;
+    padding: 8px;
+    
+}
+
+
+.b-1 h3{
+    color: #8c94b6;
+}
+
+.b-1 p{
+    color: gray;
+}
+
+
+
+.p-col2{
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    
+}
+
+
+.p-col2 p{
+    color:rgb(110, 110, 110);
+    padding: 5px;
+}
+
+.p-col2 h4{
+    color:rgb(157, 155, 155);
+}
+
+
+/* -------------------------------------Tables css------------------------------------------- */
+
+#Tables{
+    margin-top: 1px;
+}
+
+
+.table-main{
+    height: 180px;
+    /* border: 1px solid #000; */
+    background-color:#5469e1;
+    padding: 15px 24px 70px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.table-content h3{
+    display: inline-block;
+    margin-right: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+.table-content a{
+    /* border: 1px solid #000; */
+    padding: 14px;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 7px;
+    color:#5e72e4;
+}
+
+
+
+.table-button a{
+    /* border: 1px solid #000; */
+    padding:14px ;
+    text-decoration: none;
+    border-radius: 7px;
+    color:#5e72e4;
+    background-color: white;
+    margin-right: 10px;
+    
+}
+
+.table-button a:hover{
+    background-color: #edf0f2;
+}
+
+
+.table-box{
+    /* border: 1px solid #000; */
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.table-col{
+    /* border: 1px solid #000; */
+    width: 90%;
+    height: 550px;
+    transform: translateY(-10%);
+    padding: 18px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.table-col h3{
+    
+    padding: 5px 14px;
+    color: #3565b8;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+   
+}
+
+
+#th-title {
+    color: gray;
+    font-size: 12px;
+}
+
+.table-col>table{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    
+}
+
+.table-col table tr{
+    border-bottom: 1px solid #ddd;
+}
+
+.table-col table th,td {
+    padding: 14px 20px;
+}
+
+
+.table-col table td{
+    color: gray;
+}
+
+#th-icon img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#th-icon span{
+    /* border: 1px solid #000; */
+    padding-inline: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+
+
+.media{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid #000; */
+}
+
+
+
+
+
+/* -----------------------------------Login css------------------------------- */
+
+#Login{
+    margin-top: 1px;
+    background-color: #5469e1;
+}
+
+.login-nav{
+    padding: 14px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+
+
+.login-logo a>img {
+    /* border: 1px solid #000; */
+   width: 100px;
+   padding: 15px ;
+   background-color: white;
+   border-radius: 5px;
+}
+
+
+
+.login-button a{
+    color: white;
+    font-size: 18px;
+    /* border: 1px solid #000; */
+    padding: 14px;
+    border-radius: 50%;
+}
+
+.login-button > button{
+    padding: 14px ;
+    background-color: white;
+    color:#5469e1;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.login-button a:hover{
+    background-color: rgb(16, 16, 16);
+}
+
+
+
+/* -------------H E A D I N G--------------- */
+
+
+.head{
+    text-align: center;
+    padding-block: 100px;
+    /* border: 1px solid #000; */
+    
+}
+
+.head h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+
+.head p{
+    color: rgb(201, 194, 194);
+    font-size: 16px;
+}
+
+
+
+/*------------- F O R M  -----------------  */
+
+.form-main{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid #000; */
+    background-color: #172b4d;
+}
+
+
+.login-form{
+    width: 350px;
+    height: auto;
+    /* border: 1px solid #000; */
+    transform: translateY(-10%);
+       
+}
+
+.form-logo{
+    text-align: center;
+    padding: 20px;
+    /* border: 1px solid #000; */
+    background-color: white;
+    height: 140px;
+    
+}
+
+.form-logo p{
+    color: grey;
+    margin-bottom: 20px;
+    /* border: 1px solid #000; */
+}
+
+
+.form-logo a{
+    /* border: 1px solid #000; */
+    padding: 14px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, .1) 0 0 0 2px, rgba(0, 0, 0, .1) 0 4px 16px;
+    text-decoration: none;
+    margin-right:5px;
+    color: #1a4da4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-logo a>i{
+    padding: 8px;
+    color: #000;
+}
+
+.login-info{
+    background-color: white;
+    padding: 30px;
+}
+
+.login-info-head p{
+    text-align: center;
+    margin-bottom: 20px;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-info-form {
+  
+    padding: 10px;
+}
+
+.info-content{
+    margin-bottom: 10px;    
+}
+
+.info-content i{
+    padding: 10px;
+}
+
+.info-content input{
+    padding: 10px;
+    width: 80%;
+    border: 1px solid rgb(192, 183, 183);
+    background-color: transparent;
+    outline: none;
+}
+
+
+.checkbox input {
+    accent-color: white;
+    border: 1px solid #000;
+    margin-right: 5px;
+}
+
+.login-info-button{
+    text-align: center;
+    /* border: 1px solid #000; */
+    padding: 18px;
+}
+
+.login-info-button a{
+    text-decoration: none;
+    /* border: 1px solid #000; */
+    padding:14px;
+    background-color:#3949a4 ;
+    color: white;
+    border-radius: 7px;
+}
+
+#ft-login{
+    color: white;
+    background-color: #172b4d;
+    
+}
+
+
+/* -------------------------------Register css------------------------------------ */
+
+#Register{
+    margin-top: 1px;
+    background-color: darkcyan;
+}
+
+
+.register-nav{
+    padding: 14px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+
+
+.register-logo a>img {
+    /* border: 1px solid #000; */
+   width: 100px;
+   padding: 15px ;
+   background-color: white;
+   border-radius: 5px;
+}
+
+
+
+.register-button a{
+    color: white;
+    font-size: 18px;
+    /* border: 1px solid #000; */
+    padding: 14px;
+    border-radius: 50%;
+}
+
+.register-button > button{
+    padding: 14px ;
+    background-color: white;
+    color:#5469e1;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.register-button a:hover{
+    background-color: rgb(34, 33, 33);
+}
+
+
+/* --------H  E  A  D  I  N  G ------------ */
+
+.regis-head{
+    text-align: center;
+    padding-block: 100px;
+    /* border: 1px solid #000; */
+    
+}
+
+.regis-head h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+
+.regis-head p{
+    color: rgb(201, 194, 194);
+    font-size: 16px;
+}
+
+
+/* ---------- R E G I S T E R / F O R M -------------- */
+
+
+.register-main{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid #000; */
+    background-color: #172b4d;
+}
+
+
+.register-form{
+    width: 50%;
+    height: auto;
+    /* border: 1px solid #000; */
+    transform: translateY(-10%);
+       
+}
+
+.regis-logo{
+    text-align: center;
+    padding: 20px;
+    /* border: 1px solid #000; */
+    background-color: white;
+    height: 140px;
+    
+}
+
+.regis-logo p{
+    color: grey;
+    margin-bottom: 20px;
+    /* border: 1px solid #000; */
+}
+
+
+.regis-logo a{
+    /* border: 1px solid #000; */
+    padding: 14px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, .1) 0 0 0 2px, rgba(0, 0, 0, .1) 0 4px 16px;
+    text-decoration: none;
+    margin-right:5px;
+    color: #1a4da4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.regis-logo a>i{
+    padding: 8px;
+    color: #000;
+}
+
+/*-------  F O R M --- C O N T E N T --------------- */
+
+.register-info{
+    background-color: white;
+    padding: 60px;
+    /* border: 1px solid #000; */
+}
+
+.register-info-head p{
+    text-align: center;
+    margin-bottom: 30px;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.register-info-form{
+    display: flex;
+    /* border: 1px solid #000; */
+    margin-bottom: 18px;
+}
+
+.register-info-content{
+    padding: 10px;
+}
+
+
+.register-info-input{
+    width: 100%;
+}
+
+
+.register-info-input span>input{
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    outline:none;
+    border: 1px solid rgb(229, 225, 225);
+}
+
+
+.register-checkbox{
+    margin-bottom: 16px;
+    /* border: 1px solid #000; */
+}
+
+.register-checkbox input {
+    accent-color: white;
+    /* border: 1px solid #000; */
+    margin-right: 5px;
+}
+
+.register-checkbox label>a{
+    text-decoration: none;
+    color: #1a4da4;
+}
+
+.register-info-button{
+    text-align: center;
+    /* border: 1px solid #000; */
+    padding: 18px;
+}
+
+.register-info-button a{
+    text-decoration: none;
+    /* border: 1px solid #000; */
+    padding:14px;
+    background-color:#3949a4 ;
+    color: white;
+    border-radius: 7px;
+}
+
+#ft-register{
+    color: white;
+    background-color: #172b4d;
+    
+}
+
+
+
+/* ----------------------------------------- MEDIA RESPONSIVE --------------------------------------- */
+
+
+@media(max-width:600px){
+
+/* --------------------------------------Dashboard--------------------------------------------- */
+
+#sideBar{
+    position: absolute ;
+    width: 70% ;
+    z-index: 30;
+}
+
+.default-2{
+    display: none;
+}
+
+#profits-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.total{
+    width:90%;
+}
+
+.user-sales{
+    width: 90%;
+}
+
+.performance{
+    width: 90%;
+}
+
+#Dashboard{
+    height: auto;
+}
+
+#charts{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+}
+
+#chart-1{
+    width: 100%;
+    height: 50%;
+}
+
+#calendar{
+    width:100%!important;
+    height: 50% !important;
+}
+
+#visitors{
+    display: flex;
+    flex-direction: column;  
+    padding: 10px;
+    gap: 20px;
+}
+
+#visitor-table-1{
+    width: auto;
+    overflow-x: scroll;
+}
+
+#visitor-table-2{
+    width: auto;
+    overflow-x:scroll ;
+}
+
+
+
+/* ------------------------------------Icons-------------------------------------- */
+
+
+
+
+
+
+/* --------------------------------- Google Map -------------------------------*/
+
+.google-2{
+    display: none;
+}
+
+#iframe-map{
+    width: 100vw;
+}
+iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 35px;
+    width: 80vw;
+}
+
+
+/* -----------------------------  Profile ---------------------------------*/
+
+.image-filter{
+    display: flex;
+    width: 100vw;
+}
+
+.main-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90vw;
+    font-size: 18px;
+}
+
+.form-box{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-username{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: -10px;
+}
+
+.form{
+    margin: 0 auto;
+    margin-top: 1150px;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: auto;
+}
+
+.label{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.about-me{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: -10px;
+}
+
+.about-me textarea{
+    width: 65vw;
+}
+
+.p-card{
+    z-index: 100;
+}
+
+}

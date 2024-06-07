@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/globle style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./style/calender.js.css">
+
+</head>
+
+<body>
+
+
+    <div id="container">
+
+        <!------------------------------------ SIDEBAR ------------------------------------>
+
+        <div id="sideBar">
+            <div id="logo">
+                <img height="100%" ; width="100%" ;
+                    src="https://argon-dashboard-flask.creative-tim.com/static/assets/img/brand/blue.png" alt="">
+            </div>
+            <button for="#Dashboard"> <span><i class='bx bxs-dashboard' style='color:#5e72e4'></i></span>
+                Dashboard</button>
+            <button for="#Icons"> <span><i class='bx bxs-component bx-rotate-90' style='color:#5e72e4'></i></span>
+                Icons</button>
+            <button for="#Google"> <span><i class='bx bxl-google' style="color: #5e72e4;"></i></span> Google</button>
+            <button for="#Profile"> <span><i class='bx bxs-user' style='color:#5e72e4'></i></span> Profile</button>
+            <button for="#Tables"> <span><i class='bx bx-list-ul bx-flip-vertical' style='color:#5e72e4'></i></span>
+                Tables</button>
+            <button for="#Login"> <span><i class='bx bx-log-in-circle' style='color:#5e72e4'></i></span> Login</button>
+            <button for="#Register"> <span><i class='bx bx-edit' style='color:#5e72e4'></i></span> Register</button>
+        </div>
+
+
+        <!------------------------------------ MAIN ------------------------------------>
+
+        <div id="main">
+
+            <!------------------------------------ NAV BAR ------------------------------------>
+
+            <div class="navbar">
+                <i class='bx bx-menu' style='color:#ffffff'></i>
+                <input type="text" placeholder="Search">
+                <div class="navbar-logo">
+                    <a href=""><i class='bx bxs-bell'></i></a>
+                    <a href=""><i class='bx bx-copy' undefined></i></a>
+                    <a href="" id="photo"><img
+                            src="https://argon-dashboard-flask.creative-tim.com/static/assets/img/theme/team-4.jpg"
+                            alt=""></a>
+                </div>
+
+            </div>
+
+            <!------------------------------------ Dashboard ------------------------------------>
+
+            <div id="Dashboard">
+                <hr>
+                <div class="default-section">
+                    <div class="default">
+                        <h1>Default</h1>
+                        <div class="default-2">
+                            <i class='bx bxs-home' style='color:#5e72e4'></i>
+                            <h2>/ Dashboard / Default</h2>
+
+                        </div>
+                    </div>
+                    <div class="New-Filters">
+                        <h4>New</h4>
+                        <h4>Filters</h4>
+                    </div>
+                </div>
+
+                <!------------------------------------ profits-section ------------------------------------>
+
+                <div id="profits-section">
+
+                    <div class="total">
+                        <div class="total-content">
+                            <div>
+                                <p>TOTAL
+                                    <br>
+                                    TRAFFIC
+                                    <br>
+                                    <br>
+                                <h4>350,897</h4>
+                                </p>
+                            </div>
+
+                            <i class='bx bxs-hand-up' style='color:#ffffff'></i>
+                        </div>
+                        <div class="range">
+                            <i class='bx bx-up-arrow-alt' style='color:#20c620'></i>
+                            <p class="since">3.48%</p>
+                            <p>Since last month</p>
+                        </div>
+                    </div>
+
+
+                    <div class="user-sales">
+                        <div class="new-users">
+                            <div class="user-content">
+                                <div>
+                                    <p>NEW USER
+                                        <br>
+                                        <br>
+                                    <h4>2,356</h4>
+                                    </p>
+                                </div>
+
+                                <i class='bx bxs-pie-chart-alt-2' style='color:#ffffff'></i>
+                            </div>
+                            <div class="range">
+                                <i class='bx bx-up-arrow-alt' style='color:#20c620'></i>
+                                <p class="since">3.48%</p>
+                                <p>Since last month</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="user-sales">
+                        <div class="sales">
+                            <div class="sales-content">
+                                <div>
+                                    <p>SALES
+                                        <br>
+                                        <br>
+                                    <h4>924</h4>
+                                    </p>
+                                </div>
+
+                                <i class='bx bx-line-chart' style='color:#ffffff'></i>
+                            </div>
+                            <div class="range">
+                                <i class='bx bx-up-arrow-alt' style='color:#20c620'></i>
+                                <p class="since">3.48%</p>
+                                <p>Since last month</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="performance">
+                        <div class="performance-1">
+                            <div class="performance-content">
+                                <div>
+                                    <p>PRODUCTION
+                                        <br>
+                                        <br>
+                                    <h4>49.65%</h4>
+                                    </p>
+                                </div>
+
+                                <i class='bx bx-bar-chart-alt' style='color:#ffffff'></i>
+                            </div>
+                            <div class="range">
+                                <i class='bx bx-up-arrow-alt' style='color:#20c620'></i>
+                                <p class="since">3.48%</p>
+                                <p>Since last month</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!------------------------------------ charts ------------------------------------>
+
+                <div id="charts">
+                    <div id="chart-1"></div>
+                    <div id="calendar"></div>
+                </div>
+
+                <!------------------------------------ visitors  ----------------------------------->
+
+                <div id="visitors">
+                    <div id="visitor-table-1">
+                        <div class="visitors-heading">
+                            <h2>page visit</h2>
+                            <p>see all</p>
+                        </div>
+                        <div class="visitor-heading-content">
+                            <p>page name</p>
+                            <p>visitor</p>
+                            <p>users</p>
+                            <p>bounce rate</p>
+                        </div>
+                        <div class="visitor-content">
+
+                            <!-- info-1 -->
+                            <div class="visitors-list">
+                                <p>argon/argon</p>
+                                <p>4,569</p>
+                                <p>340</p>
+                                <div class="bounce-rate">
+                                    <i class='bx bx-up-arrow-alt'></i>
+                                    <span class="range">46.53%</span>
+                                </div>
+                            </div>
+
+                            <!-- info-2 -->
+                            <div class="visitors-list">
+                                <p>argon/index</p>
+                                <p>3,985</p>
+                                <p>319</p>
+                                <div class="bounce-rate">
+                                    <i class='bx bx-up-arrow-alt'></i>
+                                    <span class="range">46.53%</span>
+                                </div>
+                            </div>
+
+                            <!-- info-3 -->
+                            <div class="visitors-list">
+                                <p>argon/charts</p>
+                                <p>3,513</p>
+                                <p>294</p>
+                                <div class="bounce-rate">
+                                    <i class='bx bx-up-arrow-alt'></i>
+                                    <span class="range">36.49%</span>
+                                </div>
+                            </div>
+
+                            <!-- info-4 -->
+                            <div class="visitors-list">
+                                <p>argon/tables</p>
+                                <p>2,050</p>
+                                <p>147</p>
+                                <div class="bounce-rate">
+                                    <i class='bx bx-up-arrow-alt'></i>
+                                    <span class="range">50.87%</span>
+                                </div>
+                            </div>
+
+                            <!-- info-5 -->
+                            <div class="visitors-list">
+                                <p>argon/profile</p>
+                                <p>1,795</p>
+                                <p>190</p>
+                                <div class="bounce-rate">
+                                    <i class='bx bx-up-arrow-alt'></i>
+                                    <span class="range">46.53%</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!----------- part - 2 ------------->
+
+                    <div id="visitor-table-2">
+                        <div class="visitors-heading">
+                            <h2>social traffic</h2>
+                            <p>see all</p>
+                        </div>
+                        <div class="visitor-heading-content">
+                            <p>referral</p>
+                            <p>visitor</p>
+                            <p>rate</p>
+                        </div>
+
+                        <div class="visitor-content">
+
+                            <!-- info-1 -->
+                            <div class="visitors-list">
+                                <p>Facebook</p>
+                                <p>1,480</p>
+                                <div class="bounce-rate">
+                                    <i class='bx bx-up-arrow-alt'></i>
+                                    <span class="range">60%</span>
+                                </div>
+                            </div>
+
+                            <!-- info-2 -->
+                            <div class="visitors-list">
+                                <p>Whatsapp</p>
+                                <p>5,480</p>
+                                <div class="bounce-rate">
+                                    <i class='bx bx-up-arrow-alt'></i>
+                                    <span class="range">70%</span>
+                                </div>
+                            </div>
+
+                            <!-- info-3 -->
+                            <div class="visitors-list">
+                                <p>Instagram</p>
+                                <p>4,807</p>
+                                <div class="bounce-rate">
+                                    <i class='bx bx-up-arrow-alt'></i>
+                                    <span class="range">80%</span>
+                                </div>
+                            </div>
+
+                            <!-- info-4 -->
+                            <div class="visitors-list">
+                                <p>Google</p>
+                                <p>3,678</p>
+                                <div class="bounce-rate">
+                                    <i class='bx bx-up-arrow-alt'></i>
+                                    <span class="range">75%</span>
+                                </div>
+                            </div>
+
+                            <!-- info-5 -->
+                            <div class="visitors-list">
+                                <p>Twitter</p>
+                                <p>2,645</p>
+                                <div class="bounce-rate">
+                                    <i class='bx bx-up-arrow-alt'></i>
+                                    <span class="range">30%</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!------------------------------------ Icons ------------------------------------>
+
+            <div id="Icons">
+                <hr>
+                <div id="Icons-1">
+
+                    <div class="traffic">
+                        <div class="traffic-content">
+                            <div>
+                                <p>TRAFFIC
+                                    <br>
+                                    <br>
+                                <h4>350,897</h4>
+                                </p>
+                            </div>
+
+                            <i class='bx bx-scatter-chart' style='color:#ffffff'></i>
+                        </div>
+                        <div class="range-icons">
+                            <i class='bx bx-up-arrow-alt' style='color:#20c620'></i>
+                            <p class="since">3.48%</p>
+                            <p>Since last month</p>
+                        </div>
+                    </div>
+
+                    <div class="new-users-1">
+                        <div class="users-content-1">
+                            <div>
+                                <p>NEWUSERS
+                                    <br>
+                                    <br>
+                                <h4>2,356</h4>
+                                </p>
+                            </div>
+
+                            <i class='bx bx-network-chart' style='color:#ffffff'></i>
+                        </div>
+                        <div class="range-icons">
+                            <i class='bx bx-down-arrow-alt' style='color:#ff0000'></i>
+                            <p class="since-1">3.48%</p>
+                            <p>Since last week</p>
+                        </div>
+                    </div>
+
+                    <div class="sales-1">
+                        <div class="sales-content-1">
+                            <div>
+                                <p>SALES
+                                    <br>
+                                    <br>
+                                <h4>924</h4>
+                                </p>
+                            </div>
+
+                            <i class='bx bx-loader-circle' style='color:#ffffff'></i>
+                        </div>
+                        <div class="range-icons">
+                            <i class='bx bx-down-arrow-alt' style='color:#ff0000'></i>
+                            <p class="since-1">1.10%</p>
+                            <p>Since yesterday</p>
+                        </div>
+                    </div>
+
+                    <div class="production-1">
+                        <div class="production-content-1">
+                            <div>
+                                <p>PRODUCTION
+                                    <br>
+                                    <br>
+                                <h4>49.65%</h4>
+                                </p>
+                            </div>
+
+                            <i class='bx bx-check-double' style='color:#ffffff'></i>
+                        </div>
+                        <div class="range-icons">
+                            <i class='bx bx-up-arrow-alt' style='color:#20c620'></i>
+                            <p class="since">3.48%</p>
+                            <p>Since last week</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!------------------------------------ all logo ------------------------------------>
+
+                <div id="all-icons">
+                    <div class="her">
+                        <h2 class="name">ICONS</h2>
+                        <hr>
+                        <div id="icons">
+                            <button><span><i class='bx bx-check'></i></span> active-40</button>
+                            <button><span><i class='bx bxs-bulb'></i></span> air-baloon</button>
+                            <button><span><i class='bx bxs-photo-album'></i></span> album-2</button>
+                            <button><span><i class='bx bx-menu'></i></span> align-center</button>
+                            <button><span><i class='bx bx-align-left'></i></span>align-left</button>
+                            <button><span><i class='bx bxs-ambulance'></i></span>ambulance</button>
+                            <button><span><i class='bx bxl-instagram-alt'></i></span>app</button>
+                            <button><span><i class='bx bx-basket'></i></span>archive-2</button>
+                            <button><span><i class='bx bx-atom'></i></span>atom</button>
+                            <button><span><i class='bx bxs-user-badge'></i></span>badge</button>
+                            <button><span><i class='bx bxs-shopping-bag'></i></span>bag-17</button>
+                            <button><span><i class='bx bxs-basket'></i></span>basket</button>
+                            <button><span><i class='bx bxs-bell'></i></span>bell-55</button>
+                            <button><span><i class='bx bxs-down-arrow'></i></span>bold-down</button>
+                            <button><span><i class='bx bxs-left-arrow'></i></span>bold-left</button>
+                            <button><span><i class='bx bxs-right-arrow'></i></span>bold-right</button>
+                            <button><span><i class='bx bxs-up-arrow'></i></span>bold-up</button>
+                            <button><span><i class='bx bx-bold'></i></span>bold</button>
+                            <button><span><i class='bx bxs-book-bookmark'></i></span>book-boookmark</button>
+                            <button><span><i class='bx bxs-book'></i></span>books</button>
+                            <button><span><i class='bx bx-box'></i></span>box-2</button>
+                            <button><span><i class='bx bxs-briefcase-alt-2'></i></span>briefcase-24</button>
+                            <button><span><i class='bx bxs-building'></i></span>building</button>
+                            <button><span><i class='bx bx-bulb'></i></span>bulb-61</button>
+                            <button><span><i class='bx bx-list-ul'></i></span>bullet-list-67</button>
+                            <button><span><i class='bx bx-bus'></i></span>bus-front-12</button>
+                            <button><span><i class='bx bx-pause'></i></span>button-pause</button>
+                            <button><span><i class='bx bx-play'></i></span>button-play</button>
+                            <button><span><i class='bx bx-power-off'></i></span>button-power</button>
+                            <button><span><i class='bx bx-calendar'></i></span>calender-grid-58</button>
+                            <button><span><i class='bx bxs-camera'></i></span>camera-compact</button>
+                            <button><span><i class='bx bx-text'></i></span>caps-small</button>
+                            <button><span><i class='bx bxs-cart'></i></span>cart</button>
+                            <button><span><i class='bx bxs-bar-chart-alt-2'></i></span>chart-bar-32</button>
+                            <button><span><i class='bx bx-pie-chart-alt-2'></i></span>chart-pie-35</button>
+                            <button><span><i class='bx bxs-message-rounded-dots'></i></span>chat-round</button>
+                            <button><span><i class='bx bxs-check-circle'></i></span>check-bold</button>
+                            <button><span><i class='bx bxs-user-circle'></i></span>circle-08</button>
+                            <button><span><i class='bx bxs-cloud-download'></i></span>cloud-download</button>
+                            <button><span><i class='bx bxs-cloud-upload'></i></span>cloud-upload</button>
+                            <button><span><i class='bx bxs-compass'></i></span>compass-04</button>
+                            <button><span><i class='bx bx-joystick'></i></span>controller</button>
+                            <button><span><i class='bx bxs-credit-card'></i></span>credit-card</button>
+                            <button><span><i class='bx bxs-label'></i></span>curved-next</button>
+                            <button><span><i class='bx bxs-truck'></i></span>delivery-fast</button>
+                            <button><span><i class='bx bxl-sketch'></i></span>diamond</button>
+                            <button><span><i class='bx bxs-envelope'></i></span>email-83</button>
+                            <button><span><i class='bx bx-plus'></i></span>fat-add</button>
+                            <button><span><i class='bx bx-minus'></i></span>fat-delete</button>
+                            <button><span><i class='bx bx-x'></i></span>fat-remove</button>
+                            <button><span><i class='bx bxs-heart'></i></span>favourite-28</button>
+                            <button><span><i class='bx bx-folder-open'></i></span>folder-17</button>
+                            <button><span><i class='bx bx-glasses'></i></span>glasses-2</button>
+                            <button><span><i class='bx bxl-snapchat'></i></span>hat-3</button>
+                            <button><span><i class='bx bx-headphone'></i></span>headphones</button>
+                            <button><span><i class='bx bxl-html5'></i></span>html-5</button>
+                            <button><span><i class='bx bxs-castle'></i></span>istanbul</button>
+                            <button><span><i class='bx bx-key'></i></span>key-25</button>
+                            <button><span><i class='bx bx-laptop'></i></span>laptop</button>
+                            <button><span><i class='bx bxs-like'></i></span>like-2</button>
+                            <button><span><i class='bx bxs-lock-open'></i></span>lock-circle-open</button>
+                            <button><span><i class='bx bx-map-alt'></i></span>map-big</button>
+                            <button><span><i class='bx bx-mobile-alt'></i></span>mobile-button</button>
+                            <button><span><i class='bx bxl-bitcoin'></i></span>money-coins</button>
+                            <button><span><i class='bx bxs-music'></i></span>note-03</button>
+                            <button><span><i class='bx bx-notification'></i></span>notification-70</button>
+                            <button><span><i class='bx bxs-palette'></i></span>palette</button>
+                            <button><span><i class='bx bxs-certification'></i></span>paper-diploma</button>
+                            <button><span><i class='bx bxs-pin'></i></span>pin-3</button>
+                            <button><span><i class='bx bxs-planet'></i></span>planet</button>
+                            <button><span><i class='bx bxs-pencil'></i></span>ruler-pencil</button>
+                            <button><span><i class='bx bxs-happy'></i></span>satisfied</button>
+                            <button><span><i class='bx bx-cut'></i></span>scissors</button>
+                            <button><span><i class='bx bx-send'></i></span>send</button>
+                            <button><span><i class='bx bxs-cog'></i></span>settings-gear-65</button>
+                            <button><span><i class='bx bxs-wrench'></i></span>settings</button>
+                            <button><span><i class='bx bxs-user'></i></span>single-02</button>
+                            <button><span><i class='bx bx-copy-alt'></i></span>single-copy-04</button>
+                            <button><span><i class='bx bxl-soundcloud'></i></span>sound-wave</button>
+                            <button><span><i class='bx bxs-rocket'></i></span>spaceship</button>
+                            <button><span><i class='bx bxl-squarespace'></i></span>square-pin</button>
+                            <button><span><i class='bx bx-support'></i></span>support-16</button>
+                            <button><span><i class='bx bx-tab'></i></span>tablet-button</button>
+                            <button><span><i class='bx bxs-purchase-tag'></i></span>tag</button>
+                            <button><span><i class='bx bxl-java'></i></span>java</button>
+                            <button><span><i class='bx bxs-alarm'></i></span>time-alarm</button>
+                            <button><span><i class='bx bxs-trophy'></i></span>trophy</button>
+                            <button><span><i class='bx bx-tv'></i></span>tv-2</button>
+                            <button><span><i class='bx bx-leaf'></i></span>leaf</button>
+                            <button><span><i class='bx bx-run'></i></span>user-run</button>
+                            <button><span><i class='bx bx-vector'></i></span>vector</button>
+                            <button><span><i class='bx bxs-watch'></i></span>watch-time</button>
+                            <button><span><i class='bx bx-world'></i></span>world</button>
+                            <button><span><i class='bx bx-zoom-in'></i></span>zoom-split-in</button>
+                            <button><span><i class='bx bx-collection'></i></span>collection</button>
+                            <button><span><i class='bx bx-image'></i></span>image</button>
+                            <button><span><i class='bx bxs-store'></i></span>shop</button>
+                            <button><span><i class='bx bx-group'></i></span>ungroup</button>
+                            <button><span><i class='bx bxl-netlify'></i></span>netlify</button>
+                            <button><span><i class='bx bx-toggle-right'></i></span>ui-04</button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!------------------------------------ google maps ------------------------------------>
+
+            <div id="Google">
+                <hr>
+                <div class="google-section">
+                    <div class="google">
+                        <h1>Google maps</h1>
+                        <div class="google-2">
+                            <i class='bx bxs-home' style='color:#5e72e4'></i>
+                            <h2>/ Maps / Google maps</h2>
+                        </div>
+                    </div>
+                    <div class="New-Filters">
+                        <h4>New</h4>
+                        <h4>Filters</h4>
+                    </div>
+                </div>
+                <div id="main-map">
+                    <div id="iframe-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d3726.187862814787!2d72.9318063742802!3d20.94496953068351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d20.945003999999997!2d72.9343608!4m5!1s0x3be0f7e5f66c0a35%3A0xf05084bad10b7748!2s2nd%20floor%2C%20Raj%20Empire%2C%20Lunsikui%20Rd%2C%20Arvind%20Nagar%2C%20Chhapra%2C%20Navsari%2C%20Gujarat%20396445!3m2!1d20.9449366!2d72.9344018!5e0!3m2!1sen!2sin!4v1717417733246!5m2!1sen!2sin"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+
+
+            <!------------------------------------ profiles ------------------------------------>
+
+            <div id="Profile">
+                <div class="banner">
+                <div class="image-filter">
+                    <div class="main-box">
+                        <h1>Hello test</h1>
+                        <p>This is your profile page. You can see the progress you've made with your work and manage your projects or assigned tasks</p>
+                        <a href="#">Edit Profile</a>
+                    </div>
+                </div>
+                    <div class="form-box">
+                        <div class="form">
+                            <h3>Edit Profile</h3>
+                            <p>USERNAME</p>
+                            <div class="form-username">
+                                <div class="label">
+                                    <label for="">Username</label><br>
+                                    <input type="text" placeholder="test">
+                                </div>
+                                <div class="label">
+                                    <label for="">Email</label><br>
+                                    <input type="text" placeholder="test">
+                                </div>
+                                <div class="label">
+                                    <label for="">First-name</label><br>
+                                    <input type="text" placeholder="test">
+                                </div>
+                                <div class="label">
+                                    <label for="">Last-name</label><br>
+                                    <input type="text" placeholder="test">
+                                </div>
+                            </div>
+                            
+            
+            
+                            <!------  F  O  R  M  2 ----------------->
+            
+                            <p>CONTACT INFORMATION</p>
+                            <div class="form-username">
+                                <div class="label">
+                                    <label for="">Address</label><br>
+                                    <input type="text" placeholder="test">
+                                </div>
+                                <div class="label">
+                                    <label for="">City</label><br>
+                                    <input type="text" placeholder="test">
+                                </div>
+                                <div class="label">
+                                    <label for="">Country</label><br>
+                                    <input type="text" placeholder="test">
+                                </div>
+                                <div class="label">
+                                    <label for="">Contact</label><br>
+                                    <input type="text" placeholder="test">
+                                </div>
+                            </div>
+            
+            
+                            <!----------F  O  R  M  3 ------>
+            
+                            <p>ABOUT ME</p>
+                            <div class="about-me">
+                                <label for="">About Me</label><br>
+                                <textarea name="" id="">A beautiful Dashboard for Bootstrap 4. It is Free and Open Source.</textarea>
+                            </div>
+                        </div>
+            
+            
+                        <!-------P  R  O  F  I  L  E -- C  A  R  D--------- -->
+            
+                        <div class="p-card">
+                            <div class="photo-section">
+                                <div class="photo">
+                                    <img width="100%" height="100%" src="https://argon-dashboard-flask.creative-tim.com/static/assets/img/theme/team-4.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="p-content">
+                                <div class="b-1">
+                                    <h3>22</h3>
+                                    <p>Friend</p>
+                                </div>
+                                <div class="b-1">
+                                    <h3>10</h3>
+                                    <p>Photos</p>
+                                </div>
+                                <div class="b-1">
+                                    <h3>89</h3>
+                                    <p>Comment</p>
+                                </div>
+                            </div>
+                            <div class="p-col2">
+                                <p>test</p>
+                                <p>test@creative-tim.com</p>
+                                <h4>Solution Manager - Creative Tim Officer</h4>
+                                <h4>University of Computer Science</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div id="Tables">
+                <div class="table-main">
+                    <div class="table-content">
+                        <h3>Table</h3>
+                        <a href="">
+                            <i class="fa-solid fa-house"></i> <span>/ Table / Tables</span>
+                        </a>
+                    </div>
+                    <div class="table-button">
+                        <a href="">New</a>
+                        <a href="">Filter</a>
+                    </div>
+                </div>
+    
+                <!----------- T  A  B  L  E  B  O  X ------------------------>
+    
+    
+                <div class="table-box">
+                    <div class="table-col">
+                        <h3>Light Table</h3>
+                        <table>
+                            <tr>
+                               <th id="th-title">PROJECT</th>
+                               <th id="th-title">BUDGET</th>
+                               <th id="th-title">STATUS</th>
+                               <th id="th-title">COMPLETION</th>
+                            </tr>
+                            <tr>
+                                <th id="th-icon">
+                                    <div class="media">
+                                        <img  src="https://argon-dashboard-flask.creative-tim.com/static/assets/img/theme/bootstrap.jpg" alt="">
+                                        <span>Argon Design System</span>
+                                    </div>
+                                </th>
+                                <td>$2500 USD</td>
+                                <td>pending</td>
+                                <td>60%</td>
+                            </tr>
+                            <tr>
+                                <th id="th-icon">
+                                    <div class="media">
+                                        <img src="https://argon-dashboard-flask.creative-tim.com/static/assets/img/theme/angular.jpg" alt="">
+                                        <span>Argon Design System</span>
+                                    </div>
+                                </th>
+                                <td>$1500 USD</td>
+                                <td> completed</td>
+                                <td>60%</td>
+                            </tr>
+                            <tr>
+                                <th id="th-icon">
+                                    <div class="media">
+                                        <img src="https://argon-dashboard-flask.creative-tim.com/static/assets/img/theme/angular.jpg" alt="">
+                                        <span>Argon Design System</span>
+                                    </div>
+                                </th>
+                                <td>$2950 USD</td>
+                                <td>delayed</td>
+                                <td>60%</td>
+                            </tr>
+                            <tr>
+                                <th id="th-icon">
+                                    <div class="media">
+                                        <img src="https://argon-dashboard-flask.creative-tim.com/static/assets/img/theme/vue.jpg" alt="">
+                                        <span>Argon Design System</span>
+                                    </div>
+                                </th>
+                                <td>$1800 USD</td>
+                                <td>on schedule</td>
+                                <td>60%</td>
+                            </tr>
+                            <tr>
+                                <th id="th-icon">
+                                    <div class="media">
+                                        <img src="https://argon-dashboard-flask.creative-tim.com/static/assets/img/theme/vue.jpg" alt="">
+                                        <span>Argon Design System</span>
+                                    </div>
+                                </th>
+                                <td>$2500 USD</td>
+                                <td>pending</td>
+                                <td>60%</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+
+            <!------------------------------Login------------------------------------->
+             
+
+            <div id="Login">
+                <div class="login-nav">
+                    <div class="login-logo">
+                        <a href="">
+                            <img width="100%" height="100%" src="https://argon-dashboard-flask.creative-tim.com/static/assets/img/brand/blue.png" alt="">
+                        </a>
+                    </div>
+                    <div class="login-button">
+                        <a href=""><i class='bx bxl-github' style="color:white;" ></i></a>
+                        <a href=""><i class='bx bxl-twitter' style="color: white;" ></i></a>
+                        <a href=""><i class='bx bxl-facebook-circle' style="color: white;" ></i></a>
+                        <button>More Starter</button>
+                    </div>
+                </div>
+                
+                <!--L O G I N / H E A D I N G  -->
+    
+                <div class="head">
+                    <h1>Argon Dashboard Flask</h1>
+                    <p>Open-Source Flask Starter with Argon Dashboard Design.</p>
+                </div>
+    
+                <!---------- F O R M ----------->
+    
+                <div class="form-main">
+                    <div class="login-form">
+                        <div class="form-logo">
+                            <p>Sign in with </p>
+                            <a href=""><i class='bx bxl-github' style="color: #5e72e4;" ></i>Github</a>
+                            <a href=""><i class='bx bxl-google' style="color: #5e72e4;" ></i>Google</a>
+                        </div>
+                        <div class="login-info">
+                            <div class="login-info-head">
+                                <p>Sign with credential</p>
+                            </div>
+                            <div class="login-info-form">
+                                <div class="info-content">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <input type="text" placeholder="Email" required>
+                                </div>
+                                <div class="info-content">
+                                    <i class="fa-solid fa-lock"></i>
+                                    <input type="text" placeholder="Password" required>
+                                </div>
+                                <div class="checkbox">
+                                    <label for=""><input type="checkbox">Remember</label>
+                                </div>
+                               <div class="login-info-button">
+                                <a href="">Sign In</a>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+                     <!------------------------------Register -------------------------------------->
+
+                     <div id="Register">
+                        <div class="register-nav">
+                            <div class="register-logo">
+                                <a href="">
+                                    <img width="100%" height="100%" src="https://argon-dashboard-flask.creative-tim.com/static/assets/img/brand/blue.png" alt="">
+                                </a>
+                            </div>
+                            <div class="register-button">
+                                <a href=""><i class='bx bxl-github' style="color:white;" ></i></a>
+                                <a href=""><i class='bx bxl-twitter' style="color: white;" ></i></a>
+                                <a href=""><i class='bx bxl-facebook-circle'  style="color: white;"></i></a>
+                                <button>More Starter</button>
+                            </div>
+                        </div>
+                        
+                        <!--L O G I N / H E A D I N G  -->
+            
+                        <div class="regis-head">
+                            <h1>Argon Dashboard Flask</h1>
+                            <p>Open-Source Flask Starter with Argon Dashboard Design.</p>
+                        </div>
+            
+                        <!---------- F O R M ----------->
+            
+                        <div class="register-main">
+                            <div class="register-form">
+                                <div class="regis-logo">
+                                    <p>Sign in with </p>
+                                    <a href=""><i class='bx bxl-github' style="color: #5e72e4;" ></i>Github</a>
+                                    <a href=""><i class='bx bxl-google' style="color: #5e72e4;" ></i>Google</a>
+                                </div>
+            
+            
+                                <div class="register-info">
+                                    <div class="register-info-head">
+                                        <p>Sign with credential</p>
+                                    </div>
+            
+                                    <!--------------- I N P U T -1  --------------->
+            
+                                    <div class="register-info-form">
+                                        <div class="register-info-content">
+                                            <i class="fa-solid fa-graduation-cap"></i>
+                                        </div>
+                                        <div class="register-info-input">
+                                            <span>
+                                                <input type="text" placeholder="Name" required>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <!---------------- I N P U T-2  -------------->
+            
+                                    <div class="register-info-form">
+                                        <div class="register-info-content">
+                                            <i class="fa-solid fa-envelope"></i>
+                                        </div>
+                                        <div class="register-info-input">
+                                            <span>
+                                                <input type="text" placeholder="Email" required>
+                                            </span>
+                                        </div>
+                                    </div>
+            
+                                    <!------------ I N P U T-3  ----------------->
+            
+                                    <div class="register-info-form">
+                                        <div class="register-info-content">
+                                            <i class="fa-solid fa-lock"></i>
+                                        </div>
+                                        <div class="register-info-input">
+                                            <span>
+                                                <input type="text" placeholder="Password" required>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    
+                                    <!---------------C H E C K B O X  ----------->
+            
+                                        <div class="register-checkbox">
+                                            <label for=""><input type="checkbox">
+                                                I agree with the 
+                                                <a href="">Privacy Policy</a>
+                                            </label>
+                                        </div>
+                                    <!---------- B U T T O N  ------------------>
+            
+                                       <div class="register-info-button">
+                                        <a href="">Create account</a>
+                                       </div>
+                                </div>
+                            </div>
+                        </div>   
+                    </div>
+        </div>
+
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+            integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="./script/calender.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+        <script src="./script/globle script.js"></script>
+
+
+
+    </body>
+
+</html>
